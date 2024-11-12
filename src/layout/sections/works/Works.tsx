@@ -1,11 +1,11 @@
 import React from 'react';
 import styled from "styled-components";
-import {SectionTitle} from "../SectionTitle";
-import {Menu} from "../menu/Menu";
-import {FlexWrapper} from "../FlexWrapper";
+import {SectionTitle} from "../../../components/SectionTitle";
+import {Menu} from "../../../components/menu/Menu";
+import {FlexWrapper} from "../../../components/FlexWrapper";
 import {Work} from "./work/Work";
-import socialImg from "../../assets/images/project-1.png";
-import timerImg from "../../assets/images/project-2.png";
+import socialImg from "../../../assets/images/project-1.png";
+import timerImg from "../../../assets/images/project-2.png";
 
 const worksItems = ["ALL","LANDING PAGE","REACT","SPA"]
 
